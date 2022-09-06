@@ -4,13 +4,74 @@
     <meta charset = "UTF-8">
     <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
 
+  
+
     <title>Sophie Han Portfolio Website</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous"/>
   </head>
 
   <body>
-    <div id= "date">  </div>
-    <div id = "imageRectangle">
-    </div>
+   <header>
+     <div class = "logo">
+      <img src = "img/devjane.png" alt = "">
+     </div>
+
+     <button class = "nav-toggle" aria-lable = "toggle navigation">
+       <span class = "hamburger"></span>
+     </button>
+
+     <nav class = "nav">
+       <ul class="nav__list">
+         <li class = "nav__item"><a href = "#home" class = "nav__link">Home</a></li>
+         <li class = "nav__item"><a href = "#skills" class = "nav__link">My Skills</a></li>
+         <li class = "nav__item"><a href = "#stuff" class = "nav__link">My Stuff</a></li>
+       </ul>
+     </nav>
+   </header>
+
+   <!--Introduction-->
+   <section class = "intro" id = "home">
+     <h1 class = "section__title section __title--intro">
+       Hi, I am <strong>Sophie Han</strong>
+     </h1>
+     <p class = "section__subtitle section__subtitle--intro">Computer science student</p>
+     <img src = "img/devjane.png">
+   </section>
+
+   <!--My Skills-->
+   <section class = "my-skills" id = "skills">
+      <h2 class = "section__title section__title--skills">What I know</h2>
+
+      <div class = "skills">
+        <div class = "skill">
+          <h3>Game Development</h3>
+          <p3>The FitnessGram™ Pacer Test is a multistage aerobic capacity test that progressively gets more difficult as it continues.
+            The 20-meter pacer test will begin in 30 seconds. Line up at the start.
+            The running speed starts slowly but gets faster each minute after you hear this signal.
+            A single lap should be completed each time you hear this sound.
+          </p3>
+        </div>
+        <div class = "skill">
+          <h3> Programming</h3>
+          <p3>The FitnessGram™ Pacer Test is a multistage aerobic capacity test that progressively gets more difficult as it continues.
+            The 20-meter pacer test will begin in 30 seconds. Line up at the start.
+            The running speed starts slowly but gets faster each minute after you hear this signal.
+            A single lap should be completed each time you hear this sound.
+          </p3>
+        </div>
+        <div class = "skill">
+          <h3>Digital Illustration</h3>
+          <p3>The FitnessGram™ Pacer Test is a multistage aerobic capacity test that progressively gets more difficult as it continues.
+            The 20-meter pacer test will begin in 30 seconds. Line up at the start.
+            The running speed starts slowly but gets faster each minute after you hear this signal.
+            A single lap should be completed each time you hear this sound.
+          </p3>
+        </div>
+      </div>
+
+      <a href = "#work" class = "btn"> My Work</a>
+   </section>
   </body>
 </html>
