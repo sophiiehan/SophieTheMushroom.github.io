@@ -230,13 +230,15 @@ nav{ display:none}
     grid-row: 2;
     position: relative;
     left: -2em;
-    width: calc(100% + 4em);
-    padding-left: 2em;
+    width: calc(100% + 2em);
+    padding-left: 1em;
     padding-right: calc(200px + 4em);
   }
 
   .about-me__img{
     grid-area: img;
+    position: relative;
+    z-index: 2; 
   }
 }
 
